@@ -1,0 +1,197 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+.big/*最外层大盒子*/
+{
+    width: 1300px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.header/*网页头部*/
+{
+    width: 1300px;
+    height: 60px;
+    border-top: 1px dashed black;
+    
+
+}
+.header_left1
+{
+    width: 200px;
+    height: 60px;
+    background: url(../source/logo.jpg) no-repeat 0px -25px;
+    background-size: 200px;
+    float: left;
+}
+.header_left2
+{
+    width: 100px;
+    height: 60px;
+    /* background: green; */
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+.header_center
+{
+    width: 500px;
+    height: 60px;
+    /* background: blue; */
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+.header_right
+{
+    width: 300px;
+    height: 60px;
+    /* background:yellow; */
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_right img
+{
+    width: 20px;
+}
+.body/*网页主体*/
+{
+    width: 1300px;
+    height: 450px;
+    background: url(../source/3fa0379d417b41c197144b1bf7b77b1.png);
+    background-size: 1300px 450px;
+    position: relative;
+}
+.inp1
+{
+    width: 50px;
+    height:25px;
+    border: 1px solid black;
+    background: white；
+}
+.body_content1
+{
+    width: 600px;
+    height: 150px;
+    /* background:yellow; */
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.body_content2 /*网页文字*/
+{
+    width: 1300px;
+    height: 120px;
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+}
+.body_content1 h2
+{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 15px;
+}
+.p
+{
+    margin: 15px 0px 30px 0px;
+    color: white;
+}
+.k
+{
+    width:200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+.body_content3/*网页主体下半部*/
+{
+    width: 1000px;
+    height: 120px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.body_content3_top
+{
+    width: 300px;
+    height: 50px;
+    /* background: aqua; */
+    display: flex;
+    color: white;
+
+    justify-content: space-around;
+    align-items: center;
+}
+.body_content3_bottom
+{
+    width: 1000px;
+    height: 70px;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body_content3_bottom input
+{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.body_content3_bottom img
+{
+    width: 20px;
+    height: 20px;
+}
+.inp2
+{
+    width: 385px;
+    padding-left: 15px;
+    /* background: url(../source/xiala.png) no-repeat 360px 3px; */
+    /* background-size: 20px 20px; */
+    
+}
+.inp3
+{
+    width: 200px;
+    /* background: url(../source/rili.png) no-repeat 170px 3px; */
+    /* background-size: 20px 20px; */
+}
+.inp4
+{
+    width: 200px;
+    
+}
+.inp5
+{
+    width: 120px;
+    background: grey;
+    border: none;
+    color: white;
+}
+.tu1
+{
+    position: relative;
+    top: 5px;
+    left: -30px;
+}
+.tu1
+{
+    position: relative;
+    top: 5px;
+    left: -30px;
+}
